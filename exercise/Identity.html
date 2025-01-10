@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Identity Operators Exercises</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <header>
+        <h1>Python Operators Exercises</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Identity Operators</h2>
+            <ol>
+                <li>
+                    <p>What is the result of<br> <p1>a = 5<br> b = 5<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) True</li>
+                        <li onclick="checkAnswer(this, 'A')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) True</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = [1, 2]<br> b = [1, 2]<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) True</li>
+                        <li onclick="checkAnswer(this, 'B')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) False</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 10<br> b = 10<br> print(a is not b)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) True</li>
+                        <li onclick="checkAnswer(this, 'B')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) False</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 'hello'<br> b = 'hello'<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) True</li>
+                        <li onclick="checkAnswer(this, 'A')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) True</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = [ ]<br> b = [ ]<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) True</li>
+                        <li onclick="checkAnswer(this, 'B')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) False</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = None<br> b = None<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) True</li>
+                        <li onclick="checkAnswer(this, 'A')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) True</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 5.5<br> b = 5.5<br> print(a is not b)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) True</li>
+                        <li onclick="checkAnswer(this, 'B')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) False</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = [1, 2, 3]<br> b = a<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) True</li>
+                        <li onclick="checkAnswer(this, 'A')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) True</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 256<br> b = 256<br> print(a is b)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) True</li>
+                        <li onclick="checkAnswer(this, 'A')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) True</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 257<br> b = [257]<br> print(a is b)</p1></p><br>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) True</li>
+                        <li onclick="checkAnswer(this, 'B')">B) False</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) False</p>
+                </li>
+            </ol>
+        </section>
+        <div class="button-container">
+            <a class="button" href="../main/Operator.html">Home</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

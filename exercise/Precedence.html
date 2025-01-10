@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Precedence Operators Exercises</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+
+<body>
+    <header>
+        <h1>Python Operators Exercises</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Precedence Operators</h2>
+            <ol>
+                <li>
+                    <p>What is the result of<br> <p1>a = 5 + 2 * 3<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="C">
+                        <li onclick="checkAnswer(this, 'C')">A) 21</li>
+                        <li onclick="checkAnswer(this, 'C')">B) 15</li>
+                        <li onclick="checkAnswer(this, 'C')">C) 11</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: C) 11</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = (5 + 2) * 3<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) 11</li>
+                        <li onclick="checkAnswer(this, 'B')">B) 21</li>
+                        <li onclick="checkAnswer(this, 'B')">C) 15</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) 21</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 10 / 2 + 3<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="C">
+                        <li onclick="checkAnswer(this, 'C')">A) 6.0</li>
+                        <li onclick="checkAnswer(this, 'C')">B) 5.0</li>
+                        <li onclick="checkAnswer(this, 'C')">C) 8.0</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: C) 8.0</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 10 // 3 * 2<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) 6</li>
+                        <li onclick="checkAnswer(this, 'A')">B) 5</li>
+                        <li onclick="checkAnswer(this, 'A')">C) 7</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) 6</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 2 ** 3 * 2<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) 18</li>
+                        <li onclick="checkAnswer(this, 'B')">B) 16</li>
+                        <li onclick="checkAnswer(this, 'B')">C) 8</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) 16</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 10 - 4 + 2<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="C">
+                        <li onclick="checkAnswer(this, 'C')">A) 4</li>
+                        <li onclick="checkAnswer(this, 'C')">B) 14</li>
+                        <li onclick="checkAnswer(this, 'C')">C) 8</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: C) 8</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 10 - (4 + 2)<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) 4</li>
+                        <li onclick="checkAnswer(this, 'A')">B) 14</li>
+                        <li onclick="checkAnswer(this, 'A')">C) 8</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) 4</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 5 + 4 % 3<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="C">
+                        <li onclick="checkAnswer(this, 'C')">A) 8</li>
+                        <li onclick="checkAnswer(this, 'C')">B) 3</li>
+                        <li onclick="checkAnswer(this, 'C')">C) 6</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: C) 6</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 5 * 2 / 4<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="B">
+                        <li onclick="checkAnswer(this, 'B')">A) 5</li>
+                        <li onclick="checkAnswer(this, 'B')">B) 2.5</li>
+                        <li onclick="checkAnswer(this, 'B')">C) 10</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: B) 2.5</p>
+                </li>
+                <li>
+                    <p>What is the result of<br> <p1>a = 10 * 2 + 3 ** 2<br> print(a)</p1></p>
+                    <ul class="choices" data-answer="A">
+                        <li onclick="checkAnswer(this, 'A')">A) 29</li>
+                        <li onclick="checkAnswer(this, 'A')">B) 35</li>
+                        <li onclick="checkAnswer(this, 'A')">C) 49</li>
+                    </ul>
+                    <button onclick="showAnswer(this)">Show Answer</button>
+                    <p class="answer">Answer: A) 29</p>
+                </li>
+            </ol>
+        </section>
+        <div class="button-container">
+            <a class="button" href="../main/Operator.html">Home</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
